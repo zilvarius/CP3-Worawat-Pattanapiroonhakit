@@ -4,7 +4,7 @@ import math
 def LeftClickButton(event):
     result = ()
     bmi = float(textBoxWeight.get())/math.pow((float(textBoxHeight.get())/100),2)
-    if bmi >30.0:
+    if bmi >= 30.0:
         result = "อ้วนมาก"
     elif 25.0 <= bmi < 30 :
         result = "อ้วน"
